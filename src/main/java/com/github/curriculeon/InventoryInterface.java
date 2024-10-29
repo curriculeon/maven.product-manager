@@ -1,5 +1,8 @@
 package com.github.curriculeon;
 
+import java.util.Collection;
+import java.util.Collections;
+
 public interface InventoryInterface<SomeType> {
     void add(SomeType someObject);
 
